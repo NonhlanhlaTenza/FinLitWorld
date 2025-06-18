@@ -1,0 +1,51 @@
+
+  #budget-section {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+
+  #expense-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  #expense-form label {
+    grid-column: span 2;
+  }
+
+  #expense-form input, #expense-form select, #expense-form button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  #expenses-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  #expenses-table th, #expenses-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  #expenses-table th {
+    background-color: #f4f4f4;
+  }
+
+  .delete-expense {
+    color: white;
+    background-color: #d9534f;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  .delete-expense:hover {
+    background-color: #c9302c;
+  }
+

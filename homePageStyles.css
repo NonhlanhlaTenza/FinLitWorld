@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  background-image: url("https://t3.ftcdn.net/jpg/07/78/20/24/360_F_778202487_7W3Uxr032eJZf13hn0o8gGf8cQ7Ldama.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header {
+  background-color: #02130b;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+.balance-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.balance-card h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.balance-card p {
+  font-size: 2.5rem;
+  color:  #02130b;
+  margin: 10px 0;
+}
+
+.quick-actions {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.action {
+  background-color: #fff;
+  flex: 1;
+  margin: 5px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.action:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.action i {
+  font-size: 2rem;
+  color:  #02130b;
+  margin-bottom: 10px;
+}
+
+.action span {
+  display: block;
+  font-size: 1rem;
+  color: #02130b;
+  font-weight: 400;
+}
+
+.transactions {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#apply-heading {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+.form-field label {
+  display: block;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.form-field input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.form-field input:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 5px rgba(76, 175, 80, 0.5);
+  background-color: #fff;
+}
+
+.form-actions {
+  text-align: right;
+}
+
+.form-actions button {
+  padding: 10px 20px;
+  background-color: #02130b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.form-actions button:hover {
+  background-color: #021f39c0;
+}
+#loan-repayment{
+  margin-bottom: 10px;
+}
+.responses{
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+  

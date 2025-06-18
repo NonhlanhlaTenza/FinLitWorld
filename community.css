@@ -1,0 +1,48 @@
+#community-section {
+    font-family: Arial, sans-serif;
+  }
+  
+  .forum-post {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+  }
+  
+  .forum-thread {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .comment {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+  }
+  
+  .post-input, .comment-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  #community-section h1{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #create-post, .add-comment , .edit-post,.delete-post{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color:  #02130b;
+    color: white;
+    border:none;
+
+  }
+  .delete-post{
+    background-color: red;
+  }
+  
